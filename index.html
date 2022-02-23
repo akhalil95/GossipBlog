@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighborhood Chatter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1> Neighborhood Chatter</h1>
+    </header>
+    <form id="new-post">
+        <label for="post-title">Title:</label>
+        <input id="post-title" type="text" />
+        <label for="post-body">Body:</label>
+        <textarea id="post-body"></textarea>
+        <button>Post</button>
+    </form>
+    <div id="blogPosts"></div>
+    
+    <footer class="footer">
+        <p>
+            Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Ayesha Khalil
+        </p>
+        <a href ="https://github.com/akhalil95" target="_blank">
+            <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
